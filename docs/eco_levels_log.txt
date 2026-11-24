@@ -1,0 +1,11 @@
+before: {'power': False, 'mode': <OperationalMode.HEAT: 4>, 'target': 30.0}
+read rate select: ['PropertiesResponse b1014800000000']
+set 50: ['PropertiesResponse b002480010001a0000010000']
+  read: ['PropertiesResponse b1014800000000']
+set 75: ['PropertiesResponse b002480010001a0000010000']
+  read: ['PropertiesResponse b1014800000000']
+set 100: ['PropertiesResponse b002480010001a0000010000']
+  read: ['PropertiesResponse b1014800000000']
+read ieco: ['PropertiesResponse b101e300000000']
+eco flag in cool: True
+after: {'power': False, 'mode': <OperationalMode.HEAT: 4>, 'target': 30.0}

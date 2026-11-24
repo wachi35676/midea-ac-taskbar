@@ -1,0 +1,11 @@
+.venv/
+ac_creds.json
+__pycache__/
+probe_output.txt
+native/build/
+native/tests/vectors.txt
+app/build/
+
+*.obj
+*.pdb
+*.ilk
